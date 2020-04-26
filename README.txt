@@ -19,6 +19,7 @@ docker run -it --rm -v $(pwd):$(pwd) -w $(pwd) ruby:2.7 /bin/bash
 Installing libstree
 
 ```
+tar xzf libstree-0.4.3-pre2.tar.gz
 cd libstree-0.4.3
 autoconf
 ./configure
