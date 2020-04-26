@@ -1,10 +1,8 @@
-#include "ruby.h"
+#include <stree.h>
 
-static VALUE hello_world(VALUE mod) {
-    return rb_str_new2("hello world");
-}
+VALUE mSTree;
 
 void Init_stree() {
-    VALUE mStree = rb_define_module("Stree");
-    rb_define_singleton_method(mStree, "hello_world", hello_world, 0);
+   mSTree = rb_define_module("STree");
+   Init_stree_string();
 }

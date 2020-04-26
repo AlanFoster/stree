@@ -1,14 +1,8 @@
-= stree
+# stree
 
-home  :: FIX (url)
-code  :: FIX (url)
-rdoc  :: FIX (url)
-bugs  :: FIX (url)
-... etc ...
+Simple Ruby wrapper for the C libstree library.
 
-== DESCRIPTION:
-
-Stree
+## Running
 
 Running within a stable environment:
 
@@ -33,3 +27,10 @@ Compiling Ruby library:
 bundle
 rake compile test
 ```
+
+## Resources
+
+- Tenderlove's Writing Ruby C Extensions:
+    - [Part 1](https://tenderlovemaking.com/2009/12/18/writing-ruby-c-extensions-part-1.html)
+    - [Part 2](https://tenderlovemaking.com/2010/12/11/writing-ruby-c-extensions-part-2.html)
+- [Creating extension libraries for Ruby](https://github.com/ruby/ruby/blob/ea32715e004dc8f56dc599883d3183d7b2635f81/doc/extension.rdoc)
